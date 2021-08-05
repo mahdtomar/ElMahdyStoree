@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  max-width: 1263px;
+  margin: auto;
+  overflow-x: hidden;
+}
+header a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+header img {
+  max-width: 100%;
+}
+nav {
+  margin: 0px auto;
+  background-color: #eee;
+  font-family: cairo;
+}
+header p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+span {
+  font-family: cairo;
+  font-size: 50px;
+  color: black;
+  border-bottom: 3px solid black;
+  margin-bottom: 10px;
+}
+ul {
+  list-style-type: none;
+  /* display: inline-flex; */
+  display: inherit;
+  text-align: center;
+}
+li:hover {
+  list-style-type: none;
+  /* display: inline-flex; */
+  display: inherit;
+  text-align: center;
+  color: white;
+  background-color: rgb(74, 76, 79);
+}
+ul li {
+  padding: 10px;
+  font-family: cairo, "sans-serfie";
+  background-color: #eee;
+}
+.mens {
+  direction: rtl;
+}
+
+.mens p {
+  padding: 4px;
+  text-align: center;
+}
+#mens-section {
+  text-align: center;
+  font-family: cairo;
+  font-size: 50px;
+  margin: 20px;
+}
+.first-man-img,
+.second-man-img {
+  width: 50%;
+  float: left;
+}
+
+.thierd-man-img {
+  max-width: 100%;
+}
+.clean-space {
+  height: 20px;
+  visibility: hidden;
+  width: 100%;
+}
+hr {
+  height: 20px;
+  visibility: hidden;
+}
+/* starting womans section*/
+
+.womans {
+  text-align: center;
+}
+.womans {
+  direction: rtl;
+}
+.womans p {
+  padding: 4px;
+}
+#womans-section {
+  text-align: center;
+  font-family: cairo;
+  font-size: 50px;
+  margin: 20px;
+}
+
+/* starting childrens section*/
+
+.childrens {
+  text-align: center;
+}
+.childrens {
+  direction: rtl;
+}
+.childrens p {
+  padding: 4px;
+}
+#childrens-section {
+  text-align: center;
+  font-family: cairo;
+  font-size: 50px;
+  margin: 20px;
+}
+
+/*phone styling*/
+@media (max-width: 480px) {
+  .first-man-img,
+  .second-man-img {
+    width: 100%;
+    float: left;
+  }
+
+  .thierd-man-img {
+    max-width: 100%;
+  }
+}
