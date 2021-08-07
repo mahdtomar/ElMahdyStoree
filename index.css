@@ -142,13 +142,14 @@ footer {
   background-position: center;
   background-size: cover;
   width: 100%;
-  margin: 199px auto;
+  margin:auto;
   font-family: "Raleway", sans-serif;
   color: white;
   display: block;
   position: relative;
   text-align: center;
-
+  margin-top:50px;
+  padding-bottom: 100px;
 }
 
 h2 {
