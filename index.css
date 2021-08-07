@@ -7,6 +7,7 @@ body {
   max-width: 1263px;
   margin: auto;
   overflow-x: hidden;
+  color: black;
 }
 header a {
   text-decoration: none;
@@ -51,6 +52,7 @@ ul li {
   padding: 10px 10px 0px 10px;
   font-family: cairo, "sans-serfie";
   background-color: #eee;
+  color: black;
 }
 .mens {
   direction: rtl;
@@ -65,7 +67,9 @@ ul li {
   font-family: cairo;
   font-size: 50px;
   margin: 20px;
+  color: black;
 }
+
 .first-man-img,
 .second-man-img {
   width: 50%;
@@ -151,7 +155,7 @@ footer {
   
 }
 
-h2 {
+footer h2 {
   font-size: 50px;
   font-weight: 200;
   text-transform: capitalize;
