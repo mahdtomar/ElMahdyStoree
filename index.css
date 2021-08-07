@@ -131,3 +131,104 @@ hr {
     max-width: 100%;
   }
 }
+              /* start form  */
+
+
+
+footer {
+  font-family: "Raleway", sans-serif;
+  background-image: url("images/infinite-loop-03.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  margin: 199px auto;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  display: block;
+  position: relative;
+  text-align: center;
+
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 200;
+  text-transform: capitalize;
+  color: white;
+  display: block;
+  text-align: center;
+}
+p {
+  margin: 40px 0px 40px 0px;
+}
+aside {
+  width: 50%;
+  float: right;
+}
+aside button {
+  width: 100%;
+  padding: 30px;
+  background-color: transparent;
+  border: none;
+  margin: 5px;
+  color: white;
+  font-size: large;
+  text-align: left;
+}
+aside button:hover {
+  color: #336699;
+  transition: 0.3s;
+}
+form {
+  width: 50%;
+}
+input {
+  width: 90%;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-size: large;
+  margin: 10px;
+}
+::placeholder {
+  color: white;
+  font: inherit;
+  margin-left: 5px;
+}
+textarea {
+  width: 90%;
+  padding: 8px 20px;
+  border-radius: 6px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  height: 200px;
+  font-family: "Raleway", sans-serif;
+  overflow: auto;
+}
+textarea::-webkit-input-placeholder {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: large;
+  font-weight: 500;
+}
+i {
+  margin-right: 20px;
+  transform: scale(2);
+}
+.submit {
+  padding: 10px 70px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: #336699;
+  color: white;
+  font-size: large;
+  border: none;
+  
+}
+.submit:hover {
+  background-color: hsl(210, 50%, 50%);
+  transition: 0.5s;
+}
+
