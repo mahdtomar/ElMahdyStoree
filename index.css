@@ -20,6 +20,7 @@ nav {
   margin: 0px auto;
   background-color: #eee;
   font-family: cairo;
+  height: fit-content;
 }
 header p {
   text-align: center;
@@ -47,7 +48,7 @@ li:hover {
   background-color: rgb(74, 76, 79);
 }
 ul li {
-  padding: 10px;
+  padding: 10px 10px 0px 10px ;
   font-family: cairo, "sans-serfie";
   background-color: #eee;
 }
