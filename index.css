@@ -48,7 +48,7 @@ li:hover {
   background-color: rgb(74, 76, 79);
 }
 ul li {
-  padding: 10px 10px 0px 10px ;
+  padding: 10px 10px 0px 10px;
   font-family: cairo, "sans-serfie";
   background-color: #eee;
 }
@@ -132,9 +132,7 @@ hr {
     max-width: 100%;
   }
 }
-              /* start form  */
-
-
+/* start form  */
 
 footer {
   font-family: "Raleway", sans-serif;
@@ -142,13 +140,13 @@ footer {
   background-position: center;
   background-size: cover;
   width: 100%;
-  margin:auto;
+  margin: auto;
   font-family: "Raleway", sans-serif;
   color: white;
   display: block;
   position: relative;
   text-align: center;
-  margin-top:50px;
+  margin-top: 50px;
   padding-bottom: 100px;
 }
 
@@ -227,10 +225,8 @@ i {
   color: white;
   font-size: large;
   border: none;
-  
 }
 .submit:hover {
   background-color: hsl(210, 50%, 50%);
   transition: 0.5s;
 }
-
