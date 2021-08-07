@@ -139,14 +139,14 @@ footer {
   background-image: url("images/infinite-loop-03.jpg");
   background-position: center;
   background-size: cover;
-  width: 100%;
+  width: 99%;
   margin: auto;
   font-family: "Raleway", sans-serif;
   color: white;
   display: block;
   position: relative;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 55px;
   padding-bottom: 100px;
   
 }
