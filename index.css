@@ -145,13 +145,12 @@ hr {
 /* start form  */
 
 footer {
-  font-family: "Raleway", sans-serif;
+  font-family: "cairo", sans-serif;
   background-image: url("images/infinite-loop-03.jpg");
   background-position: center;
   background-size: cover;
   width: 99%;
   margin: auto;
-  font-family: "Raleway", sans-serif;
   color: white;
   display: block;
   position: relative;
