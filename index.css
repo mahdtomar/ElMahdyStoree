@@ -131,9 +131,10 @@ hr {
 }
 
 /*phone styling*/
-@media (max-width: 480px) {
-  nav{
+@media (max-width: 800px) {
+  header nav{
     width: 100%;
+    font-size: small;
   }
   .first-man-img,
   .second-man-img {
@@ -143,6 +144,11 @@ hr {
 
   .thierd-man-img {
     max-width: 100%;
+  }
+}
+@media (max-width: 280px) {
+  header nav{
+    font-size: 10px;
   }
 }
 /* start form  */
